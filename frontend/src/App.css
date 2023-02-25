@@ -77,6 +77,36 @@
   margin-top: 15px;
   margin-left: 20px;
 }
+
+.error-box {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: -193px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul {
+  margin: 0;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.search-box {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
